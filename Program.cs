@@ -64,10 +64,10 @@ namespace FileValidation
 
         }
     }
-}
+    public class FileFormat{
+        public string StartingSequence { get; set;}
+        public int NoOfTimesExpected { get; set;}
+        public List<String> CanBeFollowedBySequence { get; set;}
+    }
 
-public class FileFormat{
-    public string StartingSequence { get; set;}
-    public int NoOfTimesExpected { get: set;}
-    pubic List<String> CanBeFollowedBySequence { get; set;}
 }
