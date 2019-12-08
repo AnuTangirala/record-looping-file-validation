@@ -1,5 +1,7 @@
 # record-looping-file-validation
 
+## Assumptions
+
 ## How to run the program
 
 ## Overview of the solution
