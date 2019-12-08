@@ -1,0 +1,119 @@
+[
+  {
+    "StartingSequence": "BOF",
+    "NoOfTimesExpected": 1,
+    "CanBeFollowedBySequence": [
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "10",
+    "NoOfTimesExpected": 1,
+    "CanBeFollowedBySequence": [
+      "12"
+    ]
+  },
+  {
+    "StartingSequence": "12",
+    "NoOfTimesExpected": 1,
+    "CanBeFollowedBySequence": [
+      "1301"
+    ]
+  },
+  {
+    "StartingSequence": "1301",
+    "NoOfTimesExpected": 100,
+    "CanBeFollowedBySequence": [
+      "1302",
+      "1303",
+      "1305",
+      "1306",
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1302",
+    "NoOfTimesExpected": 20,
+    "CanBeFollowedBySequence": [
+      "1303",
+      "1305",
+      "!306",
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1303",
+    "NoOfTimesExpected": 10,
+    "CanBeFollowedBySequence": [
+      "1304",
+      "1305",
+      "!306",
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1304",
+    "NoOfTimesExpected": 15,
+    "CanBeFollowedBySequence": [
+      "1305",
+      "!306",
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1305",
+    "NoOfTimesExpected": 3,
+    "CanBeFollowedBySequence": [
+      "1306",
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1306",
+    "NoOfTimesExpected": 2,
+    "CanBeFollowedBySequence": [
+      "1307",
+      "1308",
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1307",
+    "NoOfTimesExpected": 4,
+    "CanBeFollowedBySequence": [
+      "1308",
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1308",
+    "NoOfTimesExpected": 1,
+    "CanBeFollowedBySequence": [
+      "1309",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1309",
+    "NoOfTimesExpected": 5,
+    "CanBeFollowedBySequence": [
+      "12",
+      "10"
+    ]
+  }
+]
