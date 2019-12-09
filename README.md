@@ -1,13 +1,13 @@
 # record-looping-file-validation
 
 ## Assumptions
-white space at the start of each line can be ignored : Eg : "      10" is as good as line "10"
+* white space at the start of each line can be ignored : Eg : "      10" is as good as line "10"
 
-Blank lines in between can be ignored
+* Blank lines in between can be ignored
 
-sequence to be verified is string and case insensitive
+* sequence to be verified is string and case insensitive
 
-after Trimming in the start, first 4 characters are considered for Sequence validation. 
+* after Trimming in the start, first 4 characters are considered for Sequence validation. 
 
 ## How to run the program
 FileValidation "D:\Anuradha\FileToBeValidated.txt" "D:\Anuradha\FileFormat.json"
