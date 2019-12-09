@@ -12,7 +12,7 @@
 ## How to run the program
 FileValidation "D:\Anuradha\FileToBeValidated.txt" "D:\Anuradha\FileFormat.json"
 
-## Dependancies
+## Dependencies
 Newtonsoft.Json.dll is required to run this program
 
 ## Overview of the solution
