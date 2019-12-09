@@ -59,10 +59,10 @@ Json file needs to be prepared based on the given record looping diagram. The re
 
 ## Test Files used
 The following are the files used for testing. All these are attached in the repository
-FileToBeValidated.txt
-FileToBeValidated1.txt
-FileToBeValidated2.txt
-FileToBeValidated3.txt
-FileToBeValidated4.txt
-FileToBeValidated5.txt
-FileToBeValidated6.txt
+* FileToBeValidated.txt
+* FileToBeValidated1.txt
+* FileToBeValidated2.txt
+* FileToBeValidated3.txt
+* FileToBeValidated4.txt
+* FileToBeValidated5.txt
+* FileToBeValidated6.txt
