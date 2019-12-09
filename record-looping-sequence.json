@@ -2,6 +2,7 @@
   {
     "StartingSequence": "BOF",
     "NoOfTimesExpected": 1,
+    "NeedsFollowUpRecord": true,
     "CanBeFollowedBySequence": [
       "10"
     ]
@@ -9,6 +10,7 @@
   {
     "StartingSequence": "10",
     "NoOfTimesExpected": 1,
+    "NeedsFollowUpRecord": true,
     "CanBeFollowedBySequence": [
       "12"
     ]
@@ -16,19 +18,23 @@
   {
     "StartingSequence": "12",
     "NoOfTimesExpected": 1,
+    "NeedsFollowUpRecord": true,
     "CanBeFollowedBySequence": [
       "1301"
     ]
   },
   {
     "StartingSequence": "1301",
-    "NoOfTimesExpected": 100,
+    "NoOfTimesExpected": 10000,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
       "1302",
       "1303",
       "1305",
       "1306",
+      "1307",
       "1309",
+      "1315",
       "12",
       "10"
     ]
@@ -36,11 +42,14 @@
   {
     "StartingSequence": "1302",
     "NoOfTimesExpected": 20,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
       "1303",
       "1305",
-      "!306",
+      "1306",
+      "1307",
       "1309",
+      "1315",
       "12",
       "10"
     ]
@@ -48,11 +57,14 @@
   {
     "StartingSequence": "1303",
     "NoOfTimesExpected": 10,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
       "1304",
       "1305",
-      "!306",
+      "1306",
+      "1307",
       "1309",
+      "1315",
       "12",
       "10"
     ]
@@ -60,57 +72,107 @@
   {
     "StartingSequence": "1304",
     "NoOfTimesExpected": 15,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
+      "1303",
       "1305",
-      "!306",
+      "1306",
+      "1307",
       "1309",
+      "1315",
       "12",
       "10"
     ]
   },
   {
     "StartingSequence": "1305",
-    "NoOfTimesExpected": 3,
+    "NoOfTimesExpected": 25,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
       "1306",
+      "1307",
       "1309",
+      "1315",
       "12",
       "10"
     ]
   },
   {
     "StartingSequence": "1306",
-    "NoOfTimesExpected": 2,
+    "NoOfTimesExpected": 1,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
       "1307",
-      "1308",
       "1309",
+      "1315",
       "12",
       "10"
     ]
   },
   {
     "StartingSequence": "1307",
-    "NoOfTimesExpected": 4,
-    "CanBeFollowedBySequence": [
-      "1308",
-      "1309",
-      "12",
-      "10"
-    ]
-  },
-  {
-    "StartingSequence": "1308",
-    "NoOfTimesExpected": 1,
+    "NoOfTimesExpected": 9,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
       "1309",
+      "1315",
       "12",
       "10"
     ]
   },
   {
     "StartingSequence": "1309",
-    "NoOfTimesExpected": 5,
+    "NoOfTimesExpected": 10,
+    "NeedsFollowUpRecord": false,
+    "CanBeFollowedBySequence": [
+      "1310",
+      "1311",
+      "1312",
+      "1315",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1310",
+    "NoOfTimesExpected": 1,
+    "NeedsFollowUpRecord": false,
+    "CanBeFollowedBySequence": [
+	  "1309",
+      "1311",
+      "1312",
+      "1315",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1311",
+    "NoOfTimesExpected": 10,
+    "NeedsFollowUpRecord": false,
+    "CanBeFollowedBySequence": [
+	  "1309",
+      "1312",
+      "1315",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1312",
+    "NoOfTimesExpected": 1,
+    "NeedsFollowUpRecord": false,
+    "CanBeFollowedBySequence": [
+      "1309",
+      "1315",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "StartingSequence": "1315",
+    "NoOfTimesExpected": 2,
+    "NeedsFollowUpRecord": false,
     "CanBeFollowedBySequence": [
       "12",
       "10"
