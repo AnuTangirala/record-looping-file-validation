@@ -12,6 +12,9 @@ after Trimming in the start, first 4 characters are considered for Sequence vali
 ## How to run the program
 FileValidation "D:\Anuradha\FileToBeValidated.txt" "D:\Anuradha\FileFormat.json"
 
+## Dependancies
+Newtonsoft.Json.dll is required to run this program
+
 ## Overview of the solution
 The approach I have used for validating the file is as follows :
 
