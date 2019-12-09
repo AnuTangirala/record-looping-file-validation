@@ -7,6 +7,8 @@
 
 * Sequence to be verified is string and case insensitive
 
+The number of characters in each line is more than or equal to 4 (Since I have hard coded 4 in the program for getting the record Type)
+
 * After Trimming in the start, first 4 characters are considered for Sequence validation. 
 
 ## How to run the program
