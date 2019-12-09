@@ -25,11 +25,13 @@ The Record looping diagram is converted to Json format, which in turn is used as
 
 The Json file is deserialized to FileFormat object , which is a class which consists of the following properties : 
 
+```
 StartingSequence, //StartingSequence denotes the sequence with which the line starts
 NoOfTimesExpected , //NoOfTimesExpected denotes the maximum number of times the StartingSequence can be expected in a file
 NeedsFollowUpRecord, // Indicated whether a record has to be followed up by a different record : Eg 10 should be followed by 12
 CanBeFollowedBySequence  //CanBeFollowedBySequence denotes the valid sequences that can follow the StartingSequence
 
+```
 The file to be verfied is accessed and read line by line.
 Beginning of the file is referred to "BOF". "BOF" is taken as first previous sequence.
 on each line read, the first 4 characters, post trimming , are assigned to current sequence.
