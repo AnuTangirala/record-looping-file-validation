@@ -12,8 +12,11 @@ The number of characters in each line is more than or equal to 4 (Since I have h
 * After Trimming in the start, first 4 characters are considered for Sequence validation. 
 
 ## How to run the program
+The first parameter is the path of the file which needs to be validated
+The second parameter is the path of the FileFormat json file which is created based on RecordLoopingDiagram 
+FileValidation is the exe that needs to be executed
 
-FileValidation "D:\Anuradha\FileToBeValidated.txt" "D:\Anuradha\FileFormat.json"
+FileValidation "D:\Anuradha\FileToBeValidated.txt" "D:\Anuradha\FileFormat.json" 
 
 ## Dependencies
 
