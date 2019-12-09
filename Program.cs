@@ -63,7 +63,7 @@ namespace FileValidation
                                     }
                                     else
                                     {
-                                        noOfMaxOccurencesAllowed = 0;
+                                        noOfMaxOccurencesAllowed = 1;
 
                                         if (checkSeq != null && checkSeq.CanBeFollowedBySequence.Any(x => x.Contains(currSequence)))
                                         {
