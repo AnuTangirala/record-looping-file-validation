@@ -28,7 +28,7 @@ The Json file is deserialized to FileFormat object , which is a class which cons
 ```
 StartingSequence, //StartingSequence denotes the sequence with which the line starts
 NoOfTimesExpected , //NoOfTimesExpected denotes the maximum number of times the StartingSequence can be expected in a file
-NeedsFollowUpRecord, // Indicated whether a record has to be followed up by a different record : Eg 10 should be followed by 12
+NeedsFollowUpRecord, // Indicates whether a record has to be followed up by a different record : Eg 10 should be followed by 12
 CanBeFollowedBySequence  //CanBeFollowedBySequence denotes the valid sequences that can follow the StartingSequence
 
 ```
