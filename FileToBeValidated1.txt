@@ -1,0 +1,56 @@
+10  Header
+12   Row 1
+
+
+1301 attr1
+1302  attr2
+1303  att3
+1304  attr4
+1305 attr5
+1306 att6
+1307 att7
+                     1309 att9
+1310 att10
+1311 att11
+1312 att12
+1315 att15					 
+12   row2
+1301 
+1307 att7
+1309 att9
+1310 att10
+1312 att12
+1315 att15	
+12   row3
+1301 atrr1
+1306  attr6
+1307 att7
+1309 att9
+1315 att15	
+12  row4
+1301  att1
+1303 attr3
+1309 att9
+1309 att9
+1310 att10	
+1309 att9
+12  row5
+1301 atrr1
+1306 attr 6
+1315 att15
+
+12   row6
+1301 atrr1
+10  second
+12  row1
+1301 attr1
+1303 attr3
+1304 attr4
+10  third
+12  row1
+1301  attr1
+12  rowFour
+1301 anotherone
+10  Header
+  
+
