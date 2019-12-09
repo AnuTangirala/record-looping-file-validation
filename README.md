@@ -1,21 +1,24 @@
 # record-looping-file-validation
 
 ## Assumptions
-* white space at the start of each line can be ignored : Eg : "      10" is as good as line "10"
+* White space at the start of each line can be ignored : Eg : "      10" is as good as line "10"
 
 * Blank lines in between can be ignored
 
-* sequence to be verified is string and case insensitive
+* Sequence to be verified is string and case insensitive
 
-* after Trimming in the start, first 4 characters are considered for Sequence validation. 
+* After Trimming in the start, first 4 characters are considered for Sequence validation. 
 
 ## How to run the program
+
 FileValidation "D:\Anuradha\FileToBeValidated.txt" "D:\Anuradha\FileFormat.json"
 
 ## Dependencies
+
 Newtonsoft.Json.dll is required to run this program
 
 ## Overview of the solution
+
 The approach I have used for validating the file is as follows :
 
 The Record looping diagram is converted to Json format, which in turn is used as basis for validating the required file.
